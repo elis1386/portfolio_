@@ -8,28 +8,21 @@ body {
     border: 2px solid #69123B;
     border-radius: 10px;
 }
-.container
+h1,h2,h3,ul,li
 {
-    max-width: 1240px;
-    margin: auto;
+    margin-bottom: 1rem;
 }
+/* Header */
 header,section,footer {
     padding: 1rem;
 }
-
-/* HEADER */
 .header{
     background-color: #69123B;
+    color: whitesmoke;
+    border-radius: 10px 0 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid #69123B;
-}
-.header a {
-    color: #FBE0D1;
-}
-.header a:hover{
-    color: white;
 }
 .header_name
 {
@@ -38,37 +31,30 @@ header,section,footer {
 }
 .header_title{
     font-size: 3.5rem;
-    color: #FBE0D1;
+    
 }
-.user_name
+.header_title_name
 {
     font-size: 2rem;
     color: #FBE0D1;
-    margin-top: 1rem;
 }
 .logo
 {
     max-width: 100%;
     height: 100px;
 }
-
-/* Ohjelmointi */
-.ohjelmointi
-{
-    padding: 2rem;
-    border: 1px solid #69123B;
-    border-width: 0 0 1px 0;
+h2{
+    font-size: 3rem;
+    color: #FBE0D1;
 
 }
-.title
-{
+h3{
     font-size: 2.4rem;
-    margin-bottom: 1rem;
+
 }
-.subtitle
-{
-    font-size: 2rem;
-    margin-bottom: 1rem;
+ul{
+    margin-inline-start: 1rem;
+
 }
 a{
     color: #69123B;
@@ -79,45 +65,63 @@ a:hover {
     color: white;
     padding: .5rem;
 }
+header, 
+.angular, 
+.ohjelmointi, 
+.ohjelmistikehitaja
+{
+    border: 1px solid #69123B;
+    border-width: 0 0 1px 0;
+}
+.ohjelmointi
+{
+    display: block;
+    border: 1px solid #69123B;
+    border-width: 1px 0;
+    padding: 2rem;
+}
+.angular{
+    margin-bottom: 0;
+}
+
+
+.footer{
+    background-color: #69123B;
+    color: #FBE0D1;
+    border-radius: 0 0 10px 10px;
+    font-size: 2rem;
+}
+header a, footer a{
+    color: #FBE0D1;
+
+}
+header a:hover, footer a:hover{
+    color: white;
+}
 ol{
     list-style: decimal;
     margin-left: 4rem;
     color: #69123B;
     font-size: 3rem;
 }
-/* ANGULAR */
-.angular{
-    margin-bottom: 0;
-    border: 1px solid #69123B;
-    border-width: 0 0 1px 0;
-    padding: 2rem;
-}
-.angular_height
+.breadcrumb
 {
-    height: 100px;
+    display: flex;
+    flex-direction: row;
 }
-/*Ohjelmistikehitaja */
-.ohjelmistikehitaja
+.breadcrumb-item
 {
-    border: 1px solid #69123B;
-    border-width: 0 0 1px 0;
-    padding: 2rem;
-}
-/* FOOTER */
-.footer{
-    background-color: #69123B;
-    color: #FBE0D1;
-    border-radius: 0 0 10px 10px;
-    font-size: 2rem;
-    height: 80px;
-}
-.footer a {
-    color: #FBE0D1;
-}
-.footer a:hover{
-    color: white;
-}
-.footer_title
+    margin-right: 1rem;
+}.breadcrumb
 {
-    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
 }
+.breadcrumb-item
+{
+    margin-right: 1rem;
+}
+
+
+
+
