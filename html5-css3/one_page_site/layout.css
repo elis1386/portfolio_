@@ -1,0 +1,273 @@
+body {
+  font-size: 62.5%;
+  width: 1024px;
+  margin: 0 auto;
+}
+/* HEADER */
+.header {
+  display: block;
+  max-width: 100%;
+  width: 1024px;
+  z-index: 10;
+  background-color: white;
+  border-bottom: 1px solid grey;
+  position: fixed;
+  height: 80px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_logo {
+  display: block;
+  font-size: 2rem;
+  text-decoration: none;
+  margin: 1rem;
+  color: #ff3701;
+}
+.nav_links {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.5rem;
+}
+.link {
+  text-decoration: none;
+  color: #5e5a5a;
+}
+.link:hover {
+  color: #ff3701;
+}
+.anchor
+{
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  top: -80px;
+  left: 0;
+  visibility: hidden;
+}
+/* FIRST BLOCK */
+.main {
+  height: 600px;
+  background: url(./images/main_photo_2.avif);
+  background-repeat: no-repeat;
+  background-position: 0%;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.main_text {
+  position: absolute;
+  width: 50%;
+  height: 70%;
+  top: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main_text h3 {
+  font-size: 2.4rem;
+  text-align: center;
+  padding: 1rem 2rem;
+}
+.main_text p {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.oransi__btn {
+  font-size: 1.4rem;
+  padding: 1rem 1.5rem;
+  background-color: #ff3701;
+  color: white;
+  border-radius: 1rem;
+  margin-right: 2rem;
+}
+.oransi__btn:hover ,.main__btn:hover 
+{
+  background-color: #fff;
+  color: gray;
+  border: 1px solid grey;
+  border-radius: 1rem;
+}
+.main__btn {
+  font-size: 1.4rem;
+  padding: 1rem 1.5rem;
+  background-color: rgb(169, 167, 167);
+  color: black;
+  border-radius: 1rem;
+}
+/* .list a
+{
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #5e5a5a;
+  margin: 2rem;
+}
+.list a:hover{
+  color: #ff3701;
+} */
+
+
+/* SECOND BLOCK */
+.box__cards {
+  padding: 15px;
+  background: lightgray;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 1rem;
+  gap: 1rem;
+}
+.box__title {
+  font-size: 2rem;
+  color: black;
+  margin: 1rem 0;
+  font-weight: 700;
+}
+.item {
+  width: 32%;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  background: white;
+  margin-bottom: 1rem;
+}
+.item__photo {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+.item__title {
+  font-size: 2rem;
+  color: black;
+  margin: 1rem 0;
+  font-weight: 700;
+}
+.item__text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.lisää {
+  display: block;
+  text-decoration: none;
+  color: #ff3701;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-size: 2rem;
+}
+
+/* THIRD BLOCK */
+
+.nykyisyys {
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  position: relative;
+}
+.nykyisyys__title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+.nykyisyys__text {
+  font-size: 1.4rem;
+}
+.nykyisyys__photo {
+  display: block;
+  margin: 2rem;
+}
+.tulevaisyys {
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  position: relative;
+}
+.tulevaisyys__title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 1rem;
+}
+.tulevaisyys__text {
+  font-size: 1.4rem;
+  margin: 0 1rem;
+}
+.tulevaisyys__photo {
+  display: block;
+  margin: 2rem;
+}
+
+/* FOOTER */
+.footer {
+ /*  margin-top: 1rem; */
+  position: relative;
+}
+.field
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form__label {
+  font-size: 1.4rem;
+  margin: 0 0.5rem;
+}
+.form__input {
+  font-size: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  width: 70%;
+}
+.contact {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ff3701;
+  margin: 1rem 0.5rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+/* 
+.form__label {
+  font-size: 1.4rem;
+  margin: 0 0.5rem;
+}
+.form__input {
+  font-size: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+} */
+.form__btn {
+  font-size: 1.4rem;
+  background-color: #ff3701;
+  color: white;
+  text-align: center;
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 1rem 45%;
+}
+.form__btn:hover 
+{
+  background-color: #fff;
+  color:  #ff3701;
+  border: 1px solid  #ff3701;
+  border-radius: 1rem;
+}
+.fotter__copy {
+  font-size: 1.4rem;
+  margin: 1rem;
+  display: block;
+  height: 50px;
+}
