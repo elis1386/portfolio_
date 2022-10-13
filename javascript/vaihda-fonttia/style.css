@@ -1,0 +1,35 @@
+body
+.font-varies {
+  font-size: 1em;
+}
+
+.container
+{
+    margin: 0 auto;
+    width: 1040px;
+    background-color:#F2EFEF;
+    padding: 2rem;
+}
+.btn
+{
+    color: white;
+    background-color: #6A5ACD;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.8rem;
+}
+li{
+    font-size: 1.4rem;
+}
+p{
+    font-size: 1.4rem;
+}

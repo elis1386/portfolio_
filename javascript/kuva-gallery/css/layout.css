@@ -1,0 +1,51 @@
+body{
+    font-size: 62.5%;
+}
+.container
+{
+    margin: 0 auto;
+    width: 1040px;
+    background-color: rgb(218, 212, 212);
+}
+h1{
+    font-size: 3rem;
+    font-weight: 600;
+    font-style: italic;
+    background-color: white;
+    text-align: inherit;
+    padding: 2rem 0;
+    color: rgb(218, 212, 212);;
+
+}
+ul{
+    display: flex;
+    gap: 2rem;
+    margin: 1rem;
+}
+li{
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+img{
+    width: 70%;
+    padding: 1.4rem;
+    background-color: white;
+    margin: 1.4rem;
+
+}
+p{
+    font-size: 1.8rem;
+    font-style: italic;
+    padding: 2rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+
+}
+a:hover{
+    color: white;
+
+}

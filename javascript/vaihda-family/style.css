@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Grenze:wght@300&family=Mansalva&family=Roboto:wght@300&family=Turret+Road:wght@300&display=swap');
+
+body,
+.fontFamily
+{
+ font-family: fantasy;
+}
+
+
+.container
+{
+    margin: 0 auto;
+    width: 1040px;
+    background-color:#F2EFEF;
+    padding: 2rem;
+}
+.btn
+{
+    color: white;
+    background-color: #6A5ACD;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.8rem;
+}
+li{
+    font-size: 1.4rem;
+}
+p{
+    font-size: 1.4rem;
+}

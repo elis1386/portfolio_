@@ -1,0 +1,32 @@
+body {
+  font-size: 62.5%;
+  line-height: normal;
+}
+.yltunniste {
+  border: 1px solid grey;
+}
+p {
+  font-size: 2rem;
+  margin: 1rem;
+}
+h1 {
+  font-size: 3rem;
+  margin: 1rem;
+}
+#rinnakkain {
+  border-bottom: 1px solid grey;
+  display: flex;
+
+  padding: 1rem;
+}
+#rinnakkain > * {
+  flex-basis: 100%;
+  flex-grow: 1;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+footer {
+  border-bottom: 1px solid grey;
+}
