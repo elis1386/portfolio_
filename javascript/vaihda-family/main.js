@@ -9,4 +9,10 @@ function changeFamily()
     fontFamily = document.body.style.fontFamily = fontsArray[click % 5];
     click++
     console.log(fontFamily);
+
+
+  showCurrentFamily() 
+}
+function showCurrentFamily() {
+  document.getElementById("font-text-family").innerHTML = `Current font-family ${fontFamily}`
 }
