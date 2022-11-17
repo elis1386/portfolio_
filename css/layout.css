@@ -68,7 +68,7 @@ header,section,footer {
 .subtitle
 {
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin: 1.4rem;
 }
 a{
     color: #69123B;
@@ -94,7 +94,7 @@ ol{
 }
 .angular_height
 {
-    height: 100px;
+    height: 200px;
 }
 /*Ohjelmistikehitaja */
 .ohjelmistikehitaja
