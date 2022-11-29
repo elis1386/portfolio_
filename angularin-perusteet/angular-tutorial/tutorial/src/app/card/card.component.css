@@ -1,0 +1,19 @@
+.card{
+    padding: .5rem 1rem;
+    border: 1px dashed #ccc;
+    margin-bottom: 1rem;
+}
+h2{
+    margin-bottom: .5em;
+}
+article{
+    display: flex;
+    gap: 1rem;
+}
+button{
+    border: none;
+    padding: .5em;
+    border-radius: .5em;
+    background-color: rgb(238, 58, 58);
+    color: white;
+}

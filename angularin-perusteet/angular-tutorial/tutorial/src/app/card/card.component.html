@@ -1,0 +1,14 @@
+<section class="card">
+  <h2>{{ title }}</h2>
+  <article>
+    <button (click)="changeTitle()">Change title</button>
+    <button (click)="title = 'New title'">Change title inline</button>
+  </article>
+  <p>
+    {{ text }}
+  </p>
+  <p>{{ getInfo() }}</p>
+  <!-- <figure><img src="{{imgUrl}}" alt=""></figure> -->
+  <figure><img [src]="imgUrl" alt=""></figure>
+
+</section>
