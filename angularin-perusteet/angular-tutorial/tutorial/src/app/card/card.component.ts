@@ -24,4 +24,9 @@ export class CardComponent implements OnInit {
   {
     this.title = 'Title was changed'
   }
+
+  onInput(event: any) {
+    const value = event.target.value
+    this.title = value
+}
 }

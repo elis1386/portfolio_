@@ -12,10 +12,5 @@ export class FormComponent implements OnInit {
       this.disabled = true;
     }, 2000);
   }
-  onInput(event: any) {
-    const value = event.target.value
-    console.log(event);
-    
-
-}
+  
 }
