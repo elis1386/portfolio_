@@ -1,16 +1,28 @@
-<section class="card">
-  <h2>{{ title }}</h2>
-  <article>
-    <button (click)="changeTitle()">Change title</button>
-    <button (click)="title = 'New title'">Change title inline</button>
-  </article>
-  <p>
-    {{ text }}
-  </p>
-  <p>{{ getInfo() }}</p>
-  <!-- <figure><img src="{{imgUrl}}" alt=""></figure> -->
-  <figure><img [src]="imgUrl" alt=""></figure>
+<main class="card">
+  <div class="box">
+    <section class="changeTitle">
+      <h2 [ngStyle]="{ color: 'gray' }">{{ title }}</h2>
+      <article class="btns">
+        <button (click)="changeTitle()">Change title</button>
+        <button (click)="title = 'New title'">Change title inline</button>
+      </article>
+    </section>
+    <section class="changeText">
+      <h1
+        class="text"
+        [ngClass]="{
+        red: textColor === 'red',
+        black: textColor === 'black'
+        }"
+      >
+        {{ text }}
+      </h1>
+      <article class="btns">
+        <button (click)="textColor = 'red'">Set red</button>
+        <button (click)="textColor = 'black'">Set black</button>
+      </article>
+    </section>
+  </div>
 
-  <input type="text" (input)="onInput($event)">
-
-</section>
+  <input type="text" [(ngModel)]="title" (ngModelChange)="changeHandler()" />
+</main>

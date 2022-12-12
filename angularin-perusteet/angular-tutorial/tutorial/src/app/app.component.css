@@ -8,3 +8,10 @@
 h1{
     text-align: center;
 }
+.toggle{
+    padding: .5em;
+    background-color: rgb(219, 16, 16);
+    border: none;
+    color: white;
+    margin: 0 0 1rem 35rem;
+}
