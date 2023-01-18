@@ -10,7 +10,7 @@ export class FormComponent implements OnInit {
   ngOnInit() {
     setTimeout(() => {
       this.disabled = true;
-    }, 2000);
+    }, 5000);
   }
   
 }

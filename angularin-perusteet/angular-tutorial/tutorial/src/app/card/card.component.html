@@ -1,7 +1,7 @@
 <main class="card">
   <div class="box">
     <section class="changeTitle">
-      <h2 [ngStyle]="{ color: 'gray' }">{{ title }}</h2>
+      <h2 [ngStyle]="{ color: 'brown' }">{{ title }}</h2>
       <article class="btns">
         <button (click)="changeTitle()">Change title</button>
         <button (click)="title = 'New title'">Change title inline</button>
@@ -11,14 +11,14 @@
       <h1
         class="text"
         [ngClass]="{
-        red: textColor === 'red',
+        blue: textColor === 'blue',
         black: textColor === 'black'
         }"
       >
         {{ text }}
       </h1>
       <article class="btns">
-        <button (click)="textColor = 'red'">Set red</button>
+        <button (click)="textColor = 'blue'">Set blue</button>
         <button (click)="textColor = 'black'">Set black</button>
       </article>
     </section>
