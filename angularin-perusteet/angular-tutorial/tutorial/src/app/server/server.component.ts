@@ -7,8 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ServerComponent implements OnInit {
 
-  imgUrl =
-  'https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fangular.io%2Fassets%2Fimages%2Flogos%2Fangular%2Fangular.png&sp=1674042196T0ac3dcf3762dfa956751e2c426c4478059575acff0c2259432e630db9c3da2c5';
+  imgUrl ='../assets/';
 
   constructor() { }
 
@@ -19,7 +18,7 @@ export class ServerComponent implements OnInit {
     }, 5000);
   }
   getInfo(): string {
-    return 'In this components we change the logo after 2 sec';
+    return 'In this components we change the logo after 5 sec';
   }
 
 }
